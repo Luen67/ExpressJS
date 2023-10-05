@@ -1,0 +1,28 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Practicas de expressjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch . ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luen67/ExpressJS.git"
+  },
+  "author": "Luis Paredes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luen67/ExpressJS/issues"
+  },
+  "homepage": "https://github.com/Luen67/ExpressJS#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
